@@ -13,6 +13,7 @@ public class RotateBlade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //this will rotate the blade of the  plane along the axiz
         transform.Rotate(Vector3.forward, 40);
         
     }
